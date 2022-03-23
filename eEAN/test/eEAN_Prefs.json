@@ -1,6 +1,0 @@
-eEAN_Prefs = {
-  "main": "\"https://yeetree.github.io/eEAN/test/eEAN-Home.js",
-  "extraScripts": [
-    "\"https://yeetree.gihub.io/eEAN/test/termlib_parser.js\""
-  ]
-}
