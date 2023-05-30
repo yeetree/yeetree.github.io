@@ -1,21 +1,37 @@
-<head>
-<title>404 Error</title>
-</head>
+<html>
+    <head>
+        <title>404 Error</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="stylesheet" href="/style.css?ver=1" />
+        <link rel="stylesheet" href="/topnav.css?ver=1" />
+    </head>
+    <body > 
+        <div class="topnav">
+            <a href="https://funniones.com">Go to the Funni-Ones Podcast Page</a>
+        </div>
+        <div id="header">
+            <div class="firstheads">
+                <img class="logo" src="/img/logo.png">
+                <h1 class="toptext">The Funni-Ones</h1>
+                <h2 class="toptext">A very, very Funni podcast.</h1>
+            </div>
+        </div>
+        <div id="finfo">
+            <div class="fofinner">
+                <h1 class="infotext"><span style="color: #ff4444; font-size: 50px;"><strong>404</strong></span></h1>
+                <p class="infotext"><span style="color: #e63b3b;"><strong>Wow! There's nothing here!</strong></span></p>
+                <p>&nbsp;</p>
+                <p class="infotext">So do me a favor and stop entering random URLs.</p>
+                <p class="infotext">Like  <pde class="infotext" id="url"></pde> for example</p>
+                <p>&nbsp;</p>
+        
+                <script>
+                var x = document.URL;
+                document.getElementById("url").innerHTML = x;
+                </script>
+            </div>
+        </div>
 
-permalink: /404.html
-
-<body>
-  
-<h1><span style="color: #ff0000;"><strong>404</strong></span></h1>
-<p><span style="color: #ff0000;"><strong>Wow such empty (totally not a Reddit quote)</strong></span></p>
-<p>&nbsp;</p>
-<p>Ok, do me a favor and stop entering random URLs.</p>
-<pde>Like  <pde id="url"></pde>  for example</pde>
-<p>&nbsp;</p>
-
-<script>
- var x = document.URL;
- document.getElementById("url").innerHTML = x;
-</script>
-</body>
+    </body>
 </html>
